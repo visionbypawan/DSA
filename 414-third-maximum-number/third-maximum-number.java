@@ -18,10 +18,7 @@ class Solution {
                 loc=1;
             }
         }
-        if(loc==1){
-            return max3;
-        }else{
-            return max1;
-        }
+        return (loc==1)? max3:max1;
+        
     }
 }
